@@ -61,7 +61,7 @@ from .models import Product
 
     def _str_(self):
         return self.name
-        ```
+```
 
 
 ## OUTPUT
