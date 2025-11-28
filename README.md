@@ -63,7 +63,9 @@ admin.site.register(Product, ProductAdmin)```
 
 ## OUTPUT
 
-<img width="1907" height="915" alt="Screenshot 2025-11-28 201754" src="https://github.com/user-attachments/assets/fe3ef7e3-16f8-4482-a15d-cbba39fb9855" />
+<img width="1895" height="933" alt="image" src="https://github.com/user-attachments/assets/15f0c315-8a17-4033-add8-fb59d3bb7ae3" />
+
+
 
 
 ## RESULT
