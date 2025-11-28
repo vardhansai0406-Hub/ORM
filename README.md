@@ -46,7 +46,8 @@ class ProductAdmin(admin.ModelAdmin):
 
 admin.site.register(Product, ProductAdmin)```
 
-```class Product(models.Model):
+```from .models import Product
+   class Product(models.Model):
     product_id = models.AutoField(primary_key=True)
     name = models.CharField(max_length=200)
     category = models.CharField(max_length=100)
@@ -61,8 +62,8 @@ admin.site.register(Product, ProductAdmin)```
 
 
 ## OUTPUT
-<img width="1889" height="883" alt="Screenshot 2025-11-28 200718" src="https://github.com/user-attachments/assets/5d4e6a40-b8c9-4541-a985-17bb051ea5e6" />
 
+<img width="1907" height="915" alt="Screenshot 2025-11-28 201754" src="https://github.com/user-attachments/assets/fe3ef7e3-16f8-4482-a15d-cbba39fb9855" />
 
 
 ## RESULT
