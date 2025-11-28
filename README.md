@@ -37,7 +37,6 @@ Execute Django admin using localhost and create details for 10 entries
 ## PROGRAM
 ```from django.contrib import admin
 from .models import Product
-
 class ProductAdmin(admin.ModelAdmin):
     list_display = ('product_id', 'name', 'category', 'brand', 'price', 'stock', 'rating')
     search_fields = ('name', 'category', 'brand')
